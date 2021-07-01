@@ -43,7 +43,7 @@ header {
     
 }
 
-.rental {
+.services {
     font-weight: 1000;
 }
 
@@ -52,77 +52,72 @@ header {
     color: var(--primary);
 }
 
-// Top Section --------- 
-
-.top_wrapper {
+.top_section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 5em;
-    margin-top: 5em;
-    border: var(--dark_blue) 3px solid;
-    margin-left: auto;
-    margin-right: auto;
-    width:60vw;
-    border-radius: 3em;
-    align-content: center;
+    margin-top: 2em;
+
+    
+
 }
 
-.rental_description {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-    p {
-        margin: 0;
-        width: 800px;
+.service_title_area {
+    h1 {
         text-align: center;
+        margin-bottom: 0;
+        font-size: 2rem;
     }
 }
 
-.rental_rates {
-    display: flex;
-    flex-direction: row;
-    gap: 3em;
-    padding: 2em;
-    flex-wrap: wrap;
-    
-}
-
-.rental_box {
-    border: solid var(--dark_blue) 3px;
-    padding: 0 1em;
-    border-radius: 1em;
+.services_box {
     display: flex;
     flex-direction: column;
-    // justify-self: center;
-    width: 150px;
-    // margin-left:auto;
-    // margin-right: auto;
-    margin: 0 auto;
-    
+    // justify-content: center;
+    align-items: center;
+    // border:var(--dark_blue) 3px solid;
+    // width: 85vw;
+}
 
-    h2 {
-        text-align: center;
+.box_area {
+    display: flex;
+    flex-wrap: wrap;
+    // border:var(--dark_blue) 3px solid;
+    // width: 75vw;
+    justify-content: center;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid var(--dark_blue) 3px;
+    width: 20em;
+    margin: 2em;
+    border-radius: 3em;
+
+    h1 {
         margin-bottom: .2em;
     }
 
-    p {
-        margin-top: 0;
-        text-align: center;
+    h2 {
+        margin: 0;
     }
 }
 
-.bottom_section {
-    display: flex;
-    
-    
-    img {
-        margin-left: auto;
-        margin-right: auto;
-        width: 60vw;
-    }
+.ending_note {
+    margin-top: 0;
+    text-align: center;
 }
+
+
+
+
+
+
+
+
 
 footer {
     display: flex;
@@ -149,6 +144,7 @@ footer {
     }
 }
 
+
 @media (max-width: 900px) {
     .NC_logo {
         display: none;
@@ -159,20 +155,4 @@ footer {
         justify-content: center; 
         align-items: center;
     }
-
-    .rental_description {
-        p {
-            width: auto;
-        }
-    }
-
 }
-
-@media (max-width: 1300px){
-    .rental_description {
-        p {
-            width: 400px;
-        }
-    }
-}
-    
